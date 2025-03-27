@@ -1,0 +1,15 @@
+{
+    "name": "dbarabash/test",
+    "description": "Test task",
+    "require": {
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Controllers\\": "controllers/",
+            "Models\\": "models/",
+            "Views\\": "views/"
+        }
+    }
+}
